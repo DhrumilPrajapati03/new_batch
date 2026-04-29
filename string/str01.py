@@ -22,7 +22,7 @@ logically to support a main idea, such as in descriptive, persuasive, or exposit
 # print(a.lower())
 # print(c.title())
 # print()
-# print(c.capitalize())
+print(c.capitalize())
 
 # print(a.istitle())
 # print(a.islower())
