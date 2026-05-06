@@ -1,2 +1,1 @@
-FastAPI is a modern and high-performance Python web framework used to build APIs quickly and efficiently. 
-Designed with simplicity it allows developers to create RESTful APIs using Python's type hints which also enable automatic validation and error handling
+meHello !

@@ -12,18 +12,35 @@ content from it and writing content to it. '''
 
 # Syntax for opening a file:
 # open("filename", "mode of opening(read mode by default)") 
-f = open("File-IO\\hello.txt", "r") 
-text = f.read() 
-print(text)
+# f = open("File-IO\\hello.txt", "r") 
+# text = f.readline() 
+# print(text)
 
-text = f.readline()
-print(text)
-f.close()
+# text = f.readline()
+# print(text)
 
-f = open("new.txt", "a")
-f.write("Hello, Good evening\n")
-f.close()
+# text = f.readline()
+# print(text)
+# f.close()
+
+# f = open("new.txt", "w")
+# f.write("Hello, Good evening\n")
+# f.close()
+
+# f = open("new.txt", "a")
+# f.write("Hello, Good evening\n")
+# f.close()
+
+with open('File-IO\\hello.txt', 'r') as f:
+    a = f.read()
+with open('File-IO\\hello.txt', 'w') as f:
+    a = f.write("me")
+with open('File-IO\\hello.txt','a') as f:
+    a = f.write("Hello !")
+print(a)
+
 
 # 1 Write a program to read the text from a given file ‘poems.txt’ 
 # 2 Write a program to write the text “Hello, Good evening” to a file named ‘greeting.txt’
 # 3 Write a program to append the text “Have a nice day” to the file ‘greeting.txt’
+# 4 use with statement to read the text from a given file ‘poems.txt’ and write it to another file named ‘copy_poems.txt’
