@@ -19,3 +19,6 @@ print(add)
 
 meann = a.mean()
 print(meann)
+
+s = a.std()
+print(s)
